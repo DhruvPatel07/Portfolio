@@ -1,0 +1,75 @@
+body {
+    background-color: #1a1c20;
+    height: fit-content;
+}
+
+body {
+    background-color: #1d2227;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center a:hover {
+    transform: scale(1.1);
+    transition-duration: 0.6s;
+    opacity: 6;
+}
+
+:root {
+    --font: 'Montserrat', sans-serif;
+    --prime-font: 'Work Sans', sans-serif;
+    --bg: #1a1c20;
+    --main-color: #f9813a;
+    --main-font-color: #fdfbfb;
+    --sec-font-color: #fcf1f1b4;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+/* navbar */
+
+.nav {
+    width: 85%;
+    height: 70px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+
+.nav .logo {
+    font-size: 2em;
+    color: white;
+}
+
+.nav ol {
+    list-style: none;
+    font-size: large;
+
+}
+
+.nav ol a {
+    text-decoration: none;
+    color: var(--sec-font-color);
+    margin: 0.3em;
+    padding: 0.5em 1.5em;
+    border-radius: 10px;
+}
+
+.nav ol a:hover {
+    transition: background .8s;
+    background: var(--main-color);
+}
+
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
