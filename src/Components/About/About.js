@@ -15,10 +15,10 @@ const About = () => {
               <div className="bottom"></div>
               <br />
               <div className="content">
-                I'm Full-Stack Developer from Gujarat, India
+                I'm Web Developer from Gujarat, India
                 <br />
                 <br />
-                Highly motivated Full-Stack Developer. I started to learn
+                Highly motivated Web Developer. I started to learn
                 programming on my own. Driven and permanently curious.
               </div>
             </div>
