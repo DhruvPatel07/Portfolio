@@ -1,7 +1,24 @@
 import React from "react";
+import emailjs from "emailjs-com";
+
 import "./ContactUs.css";
 
 const ContactUs = () => {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_7znz2bp",
+        'template_0w9muzv',
+        e.target,
+        "fuOKf8MU5N3n0ZeP_"
+      )
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => console.log(err));
+  }
   return (
     <>
       <div data-aos="zoom-in" className="flex-container">
@@ -21,13 +38,18 @@ const ContactUs = () => {
         </div>
 
         <div className="flex-child">
-          <form className="contactform" action="" method="POST">
+          <form
+            className="contactform"
+            action=""
+            method="POST"
+            onSubmit={sendEmail}
+          >
             <label>
               <input name="name" id="name" type="text" required />
               <div className="label-text">FULL NAME</div>
             </label>
             <label>
-              <input type="text" name="email" id="email" required />
+              <input type="text" name="user_email" id="email" required />
               <div className="label-text">EMAIL</div>
             </label>
             <label>
@@ -35,11 +57,11 @@ const ContactUs = () => {
               <div className="label-text">PHONE NUMBER </div>
             </label>
             <label>
-              <input type="text" name="description" id="desc" required />
+              <input type="text" name="message" id="desc" required />
               <div className="label-text">DESCRIPTION </div>
             </label>
 
-            <button type="submit" value="Submit">
+            <button type="submit" value="Send">
               SUBMIT
             </button>
           </form>
