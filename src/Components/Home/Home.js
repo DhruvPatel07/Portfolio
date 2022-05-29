@@ -19,7 +19,7 @@ const Home = () => {
               typeSpeed={70}
               deleteSpeed={50}
               delaySpeed={1000}
-              words={["Frontend Developer", "Django Developer"]}
+              words={["Frontend ReactJs Developer", "Django Developer"]}
             />
           </span>
         </p>
