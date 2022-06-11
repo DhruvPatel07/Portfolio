@@ -41,6 +41,7 @@ body {
   height: 70px;
   margin: 0 auto;
   position: relative;
+  transition: 0.4s;
   justify-content: space-between;
 }
 
@@ -58,6 +59,10 @@ body {
   font-size: large;
 }
 
+.activeclass {
+  color: #f9813a !important;
+}
+
 .nav ol a {
   text-decoration: none;
   color: var(--sec-font-color);
@@ -67,7 +72,8 @@ body {
 }
 
 .nav ol a:hover {
-  transition: background 0.8s;
+  transition: 0.4s;
+  color: white !important;
   background: var(--main-color);
 }
 
