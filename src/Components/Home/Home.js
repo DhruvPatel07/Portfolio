@@ -5,6 +5,7 @@ import "./Home.css";
 import Profile from "../images/profile.jpeg";
 
 const Home = () => {
+  
   return (
     <section className="main">
       <div className="boxes">
