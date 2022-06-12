@@ -18,8 +18,8 @@ const About = () => {
                 I'm Web Developer from Gujarat, India
                 <br />
                 <br />
-                Highly motivated Web Developer. I started to learn
-                programming on my own. Driven and permanently curious.
+                Highly motivated Web Developer. I started to learn programming
+                on my own. Driven and permanently curious.
               </div>
             </div>
           </div>
@@ -28,7 +28,9 @@ const About = () => {
             <img src={AboutMe} alt="About" />
           </div>
         </div>
-
+        <div className="heading-about">
+          <h2>Known Technologies</h2>
+        </div>
         <div className="more">
           <div className="lan">HTML</div>
           <div className="lan">CSS</div>

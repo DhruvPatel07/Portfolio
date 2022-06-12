@@ -140,16 +140,16 @@ button:focus {
   color: #333333;
 }
 
-@media screen and (max-width:600px){
-  .flex-container{
+@media screen and (max-width: 480px) {
+  .flex-container {
     flex-direction: column;
   }
-  
-  .contact{
+
+  .contact {
     order: 1;
   }
 
-  .contactform{
+  .contactform {
     order: 2;
   }
 }

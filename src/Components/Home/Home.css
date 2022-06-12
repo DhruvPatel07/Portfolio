@@ -92,8 +92,15 @@ body {
     width: 100vw;
     right: -8% !important;
     /* background-color: #f9803a; */
-  } 
+  }
 
+  .main::after{
+    width: 105% !important;
+  }
+
+  .boxes {
+    margin-top: -20px;
+  }
   .main {
     height: 82vh;
   }
