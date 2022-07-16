@@ -36,6 +36,7 @@ const About = () => {
           <div className="lan">CSS</div>
           <div className="lan">Javascript</div>
           <div className="lan">React Js</div>
+          <div className="lan">React Native</div>
           <div className="lan">Python</div>
           <div className="lan">MySQL</div>
           <div className="lan">MongoDB</div>
