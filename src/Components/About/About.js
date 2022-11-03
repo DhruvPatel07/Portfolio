@@ -18,8 +18,12 @@ const About = () => {
                 I'm Web Developer from Gujarat, India
                 <br />
                 <br />
-                Highly motivated Web Developer. I started to learn programming
-                on my own. Driven and permanently curious.
+                Experienced in developing and designing Web applications.
+                Committed to improving business productivity, efficiency and
+                developing insightful solutions to current business practices.
+                Translated business requirements into functional specifications
+                and manage changes to those specifications. Resigned current
+                business processes for newer technology.
               </div>
             </div>
           </div>

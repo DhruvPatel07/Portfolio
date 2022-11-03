@@ -91,7 +91,7 @@ label input {
 
 label input:focus {
   max-width: 100%;
-  width: 400px;
+  /* width: 400px; */
 }
 
 /* the text floats up and turns white */
