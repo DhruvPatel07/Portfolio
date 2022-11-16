@@ -29,10 +29,10 @@ const ContactUs = () => {
             </div>
             <br />
             <div className="content1">
-              EMAIL ID : dhruv.patel.0220.dp@gmail.com
+             <b> Email ID </b>: dhruv.patel.0220.dp@gmail.com
               <br />
               <br />
-              Contact No.: +91 9328398227
+             <b> Contact No. &nbsp;</b>: +91 9328398227
             </div>
           </div>
         </div>
