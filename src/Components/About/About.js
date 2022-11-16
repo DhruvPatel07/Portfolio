@@ -1,6 +1,8 @@
 import React from "react";
 import "./About.css";
 import AboutMe from "../images/about.jpeg";
+import Resume from "./Resume.pdf";
+
 const About = () => {
   return (
     <>
@@ -24,6 +26,16 @@ const About = () => {
                 Translated business requirements into functional specifications
                 and manage changes to those specifications. Resigned current
                 business processes for newer technology.
+              </div>
+              <div className="resume">
+                <a
+                  rel="noreferrer"
+                  href={Resume}
+                  target="_blank"
+                  download="Dhruv Patel Resume.pdf"
+                >
+                  Download Resume
+                </a>
               </div>
             </div>
           </div>
