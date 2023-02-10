@@ -144,12 +144,17 @@ button:focus {
   .flex-container {
     flex-direction: column;
   }
-
+  .heading1{
+    font-size: larger;
+    text-align: center;
+  }
   .contact {
     order: 1;
   }
 
   .contactform {
     order: 2;
+    margin-top: 5%;
+    width: 82%;
   }
 }

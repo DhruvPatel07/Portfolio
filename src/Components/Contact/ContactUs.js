@@ -67,6 +67,8 @@ const ContactUs = () => {
           </form>
         </div>
       </div>
+
+      {/* Intership  */}
     </>
   );
 };
