@@ -32,7 +32,7 @@ const ContactUs = () => {
              <b> Email ID </b>: dhruv.patel.0220.dp@gmail.com
               <br />
               <br />
-             <b> Contact No. &nbsp;</b>: +91 9328398227
+             <b> Contact No. &nbsp;</b>: +1 437 955 3227
             </div>
           </div>
         </div>

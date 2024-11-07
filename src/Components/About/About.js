@@ -53,10 +53,13 @@ const About = () => {
           <div className="lan">Javascript</div>
           <div className="lan">React Js</div>
           <div className="lan">React Native</div>
+          <div className="lan">MongoDB</div>
           <div className="lan">Python</div>
           <div className="lan">MySQL</div>
-          <div className="lan">MongoDB</div>
+          <div className="lan">ASP.NET MVC</div>
           <div className="lan">Django</div>
+          <div className="lan">SAP Crystal Reports</div>
+        
         </div>
       </div>
     </>

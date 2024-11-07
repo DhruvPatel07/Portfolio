@@ -31,7 +31,7 @@ const Work = () => {
           </ul>
         </div>
 
-        <div className="workcard">
+        {/* <div className="workcard">
           <div className="workcontent">
             <div className="imgBx">
               <img src={Work1} alt="Work1" />
@@ -137,7 +137,7 @@ const Work = () => {
           <ul className="sci">
             <p>This Project is developed in Django</p>
           </ul>
-        </div>
+        </div> */}
       </div>
       {/* <div className="box box2">
           <h1>Project 2</h1>
